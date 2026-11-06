@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>사주 · 나라는 취향을 읽다 | 네온 에디션</title>
+<style>
+:root{--lime:#ccff00;--ink:#111;--muted:#595959;--paper:#f2f2ee;--line:#d8d8d2}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#fff;color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;word-break:keep-all;overflow-wrap:anywhere}h1,h2,h3,p,figure{margin:0}a{color:inherit;text-underline-offset:5px}button,input{font:inherit}main{max-width:1440px;margin:auto;padding:0 56px}.masthead{height:110px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:2px solid var(--ink)}.brand{font-size:36px;font-weight:900;letter-spacing:-3px;text-decoration:none;line-height:1}.brand small{font-size:11px;letter-spacing:2px;display:block;margin-top:13px;font-weight:600}.masthead nav{display:flex;gap:32px;font-size:14px;font-weight:700}.masthead nav a{display:flex;align-items:center;min-height:44px;text-decoration:none}.masthead nav a:hover{text-decoration:underline}.edition{display:flex;justify-content:space-between;gap:12px;font-size:11px;letter-spacing:1.2px;padding:18px 0}.hero{display:grid;grid-template-columns:5fr 7fr;min-height:510px;background:var(--paper)}.hero-copy{padding:48px 36px 36px;display:flex;flex-direction:column;align-items:flex-start}.eyebrow{font-size:11px;font-weight:750;letter-spacing:1.7px;text-transform:uppercase}.hero h1{font-size:clamp(44px,5.2vw,75px);line-height:1.12;letter-spacing:-4px;margin:25px 0 22px;font-weight:850}.hero h1 em{font-style:normal;background:var(--lime);padding:0 5px}.lead{font-size:17px;max-width:420px;color:#444;line-height:1.75}.cta{margin-top:28px;display:inline-flex;align-items:center;justify-content:space-between;gap:42px;background:var(--lime);border:1px solid #111;text-decoration:none;font-size:14px;font-weight:750;padding:13px 18px;min-height:48px}.cta:hover{background:#111;color:var(--lime)}.status{font-size:12px;margin-top:20px;color:#454545}.status:before{content:'';display:inline-block;width:6px;height:6px;background:#111;margin-right:7px}.hero-art{position:relative;isolation:isolate;background:#1e1e1e;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:440px}.art-grid{position:absolute;inset:0;background:linear-gradient(90deg,transparent 49.8%,#ffffff0c 50%,transparent 50.2%),linear-gradient(0deg,transparent 49.8%,#ffffff0c 50%,transparent 50.2%);background-size:80px 80px}.metal{position:absolute;width:57%;height:72%;transform:rotate(-19deg) skewY(-4deg);background:linear-gradient(95deg,#666 0%,#dededb 24%,#8b8b89 49.6%,#f6f6f2 50%,#9c9c99 64%,#414141 100%);box-shadow:30px 34px 0 #0003;clip-path:polygon(15% 0,100% 0,85% 100%,0 100%)}.metal:after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,#ffffff09 0 1px,transparent 1px 4px)}.art-glyph{position:relative;font-family:serif;font-size:200px;line-height:1;color:#121212;mix-blend-mode:multiply;transform:rotate(-19deg);font-weight:400}.art-tag{position:absolute;top:26px;left:26px;color:#fff;font-size:11px;letter-spacing:2px}.art-foot{position:absolute;bottom:26px;left:26px;right:26px;display:flex;justify-content:space-between;align-items:end;color:#fff;gap:20px}.art-foot strong{font-size:30px;letter-spacing:-1px;line-height:1.2}.art-foot span{font-size:10px;letter-spacing:1.5px}.art-sticker{position:absolute;right:20px;top:28px;background:var(--lime);color:#111;padding:8px 13px;font-size:11px;transform:rotate(6deg);font-weight:800}.intro-strip{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid #111;font-size:12px;gap:24px}.intro-strip strong{font-size:13px}.section{margin-top:80px}.section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:32px}.section h2{font-size:34px;line-height:1.3;letter-spacing:-1.5px;margin-top:9px}.section-no{font-size:12px;background:var(--lime);padding:4px 9px;min-width:32px;text-align:center}.reading-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px}.story{border-top:1px solid #111;padding-top:20px}.story-num{font-size:11px;color:var(--muted);letter-spacing:1px}.story h3{font-size:24px;line-height:1.45;letter-spacing:-.9px;margin:15px 0}.story p{color:var(--muted);font-size:15px}.story.action{background:var(--lime);padding:22px;border-top:0}.story.action .story-num,.story.action p{color:#252525}.story.action h3{font-size:27px}.note,.small{font-size:13px;color:var(--muted);line-height:1.75}.note{margin-top:24px;max-width:850px}.composition{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;border-top:1px solid #111;padding-top:30px}.composition h3{font-size:22px;letter-spacing:-.6px}.pillar-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:28px;border:1px solid var(--line)}.pillar{padding:22px 12px;border-right:1px solid var(--line);text-align:center;background:var(--paper)}.pillar:last-child{border-right:0}.pillar.highlight{background:#111;color:#fff}.pillar.highlight .small{color:#ccc}.glyph{font-size:35px;margin:14px 0;font-family:serif;line-height:1.2;letter-spacing:4px}.uncertain .glyph{font:700 19px/1.6 inherit;letter-spacing:0}.pillar .small{font-size:11px}.bar-row{margin-top:21px}.bar-top{display:flex;justify-content:space-between;font-size:13px;margin-bottom:7px}.bar-top strong{font-size:16px}.track{height:6px;background:#e6e6e0}.fill{height:100%;background:#111}.time-section{display:grid;grid-template-columns:1fr 1.15fr;gap:64px;background:#111;color:#fff;padding:42px;margin-top:64px}.time-section h2{font-size:32px;letter-spacing:-1.4px;margin:14px 0 18px;line-height:1.35}.time-section .eyebrow{color:var(--lime)}.time-section .small{color:#bdbdbd}.time-section p{font-size:14px}.time-section fieldset{border:0;margin:0;padding:0;min-width:0}.time-section legend{font-size:12px;color:#bbb;margin-bottom:12px}.options{display:flex;gap:8px}.option{display:flex;align-items:center;gap:9px;cursor:pointer;border:1px solid #686868;padding:12px;min-height:48px;font-size:12px;flex:1}.option input{width:16px;height:16px;accent-color:#111;margin:0;flex:none}.option:has(input:checked){background:var(--lime);color:#111;border-color:var(--lime)}.selected{display:none;font-size:10px;margin-left:auto;white-space:nowrap}.option:has(input:checked) .selected{display:block}.scenario{min-height:152px;padding-top:22px}.scenario strong{font-size:32px;display:block;line-height:1.4;margin:6px 0}.scenario p:last-child{color:#ccc}.time-section details{border-color:#555}.time-section details p{color:#ccc}.lower-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:64px}.lower-grid h2{font-size:28px}dl{margin:0}dl>div{display:grid;grid-template-columns:110px 1fr;gap:12px;border-top:1px solid var(--line);padding:14px 0}dt{font-size:12px;color:var(--muted)}dd{font-size:14px;margin:0}details{border-top:1px solid var(--line)}summary{cursor:pointer;padding:16px 20px 16px 0;min-height:56px;font-weight:650;font-size:14px}details p,details ul{font-size:13px;color:var(--muted);margin:8px 0 16px}details li{margin:6px 0}.source{display:block;min-height:44px;font-size:13px;padding:10px 0}.next{display:flex;align-items:center;justify-content:space-between;border-top:2px solid #111;margin-top:72px;padding:32px 0;gap:32px}.next h3{font-size:24px;letter-spacing:-.7px}.next p{max-width:630px;font-size:14px;color:var(--muted)}footer{background:#111;color:#fff;margin:0 -56px;padding:36px 56px;display:flex;justify-content:space-between;gap:40px}.footer-brand{font-size:30px;font-weight:850;letter-spacing:-1.8px}footer .small{color:#bbb;font-size:11px;max-width:500px}footer .eyebrow{color:var(--lime);margin-bottom:7px}a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #111;outline-offset:5px}.time-section :focus-visible{outline-color:var(--lime)}@media(min-width:1440px){.hero h1{font-size:75px}}@media(max-width:1000px){main{padding:0 32px}.hero-copy{padding:32px 25px}.hero h1{font-size:54px}.reading-grid{gap:20px}.composition,.lower-grid{gap:32px}.pillar-grid{grid-template-columns:repeat(2,1fr)}.pillar:nth-child(2){border-right:0}.pillar:nth-child(-n+2){border-bottom:1px solid var(--line)}.time-section{padding:28px;gap:32px}.options{flex-direction:column}footer{margin:0 -32px;padding:32px}.art-glyph{font-size:160px}}@media(max-width:650px){main{padding:0 20px}.masthead{height:auto;min-height:103px;display:block;padding:21px 0 12px}.brand{font-size:31px;display:flex;align-items:center;gap:17px}.brand small{margin:0;font-size:9px;letter-spacing:1.2px}.masthead nav{gap:24px;font-size:12px;margin-top:8px}.masthead nav a{min-height:32px}.edition{font-size:9px;padding:13px 0;letter-spacing:.3px}.hero{grid-template-columns:1fr}.hero-copy{padding:28px 24px}.hero h1{font-size:46px;letter-spacing:-2.4px;margin:20px 0}.lead{font-size:15px}.hero-art{min-height:310px}.art-glyph{font-size:140px}.art-foot strong{font-size:24px}.art-foot{bottom:20px;left:20px;right:20px}.art-tag{top:20px;left:20px}.art-sticker{right:16px;top:18px}.cta{margin-top:22px;width:100%;font-size:13px}.status{font-size:11px;margin-top:16px}.intro-strip{display:block;padding:16px 0;font-size:11px}.intro-strip strong{display:block;margin-bottom:4px;font-size:12px}.section{margin-top:52px}.section h2{font-size:28px;letter-spacing:-1px}.section-head{margin-bottom:24px}.reading-grid{grid-template-columns:1fr;gap:26px}.story h3{font-size:23px}.story.action h3{font-size:25px}.note{font-size:12px}.composition,.lower-grid{grid-template-columns:1fr;gap:36px}.pillar-grid{grid-template-columns:repeat(2,1fr)}.pillar{padding:20px 12px}.glyph{font-size:40px}.composition{padding-top:24px}.time-section{grid-template-columns:1fr;gap:28px;padding:28px 22px;margin:48px -20px 0}.time-section h2{font-size:28px}.options{flex-direction:column}.option{font-size:13px}.scenario{min-height:170px}.next{display:block;margin-top:48px;padding:26px 0}.next h3{font-size:23px;margin-bottom:14px}footer{display:block;margin:0 -20px;padding:28px 20px}.footer-brand{margin-bottom:20px}footer .small{font-size:11px}.eyebrow{font-size:10px}.lower-grid h2{font-size:25px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}@media print{main{padding:0}.hero-art{print-color-adjust:exact}.hero,.time-section,.story.action{print-color-adjust:exact}details{break-inside:avoid}footer{margin:0}.masthead nav{display:none}}
+
+
+/* Quiet geometric outlines echo the metal study; decorative, never data. */
+.outline{position:absolute;display:block;pointer-events:none;user-select:none;fill:none;stroke:currentColor;stroke-width:1;overflow:visible}
+.outline *{vector-effect:non-scaling-stroke}
+.hero-copy{position:relative;isolation:isolate;overflow:hidden}
+.hero-copy>:not(.outline){position:relative;z-index:1}
+
+.hero-art .art-grid{z-index:0}
+.hero-art .metal{z-index:1}
+.hero-art .art-glyph{z-index:2}
+.art-tag,.art-foot,.art-sticker{z-index:3}
+.art-orbits{width:112%;height:105%;inset:-2% -6%;color:#eee;opacity:.45;z-index:0;transform:rotate(-16deg)}
+.art-spark{width:74px;height:74px;right:25px;top:31%;color:var(--lime);opacity:.85;z-index:2}
+
+.section-head{position:relative;isolation:isolate}
+.section-head>:not(.outline){position:relative;z-index:1}
+
+
+.time-section{position:relative;isolation:isolate;overflow:hidden}
+.time-section>div{position:relative;z-index:1}
+.footer-orbits{width:370px;height:370px;left:-245px;bottom:-226px;color:#eee;opacity:.25;transform:rotate(22deg);z-index:0}
+.footer-spark{width:98px;height:98px;right:-39px;bottom:-32px;color:var(--lime);opacity:.6;z-index:0}
+.next{position:relative;isolation:isolate}
+
+@media(max-width:1000px){.art-spark{width:56px;height:56px;right:14px}}
+@media(max-width:650px){.art-orbits{width:116%;height:112%;inset:-6% -8%}.art-spark{width:48px;height:48px;right:18px;top:34%}.footer-orbits{width:280px;height:280px;left:-200px;bottom:-160px}.footer-spark{width:74px;height:74px;right:-29px;bottom:-25px}}
+footer{position:relative;isolation:isolate;overflow:hidden}footer>div{position:relative;z-index:1}
+</style>
+</head>
+<body><main id="report"></main><noscript>이 리포트는 파일에 포함된 JavaScript로 표시됩니다. 브라우저에서 JavaScript를 허용해 주세요. 인터넷 연결은 필요하지 않습니다.</noscript>
+<script id="report-data" type="application/json">
+{
+  "guideline_version": "v8.0",
+  "rules_version": "design-demo",
+  "report_version": "public-1.0",
+  "generated_at": "2026-11-06T00:00:00+09:00",
+  "timezone": "Asia/Seoul",
+  "calculation_period": {
+    "kind": "design-demo",
+    "label": "공개 디자인 예시",
+    "forecast_start": null,
+    "forecast_end": null
+  },
+  "input": {
+    "calendar": "비공개",
+    "date": "비공개",
+    "time": "비공개",
+    "gender": "비공개",
+    "birth_region": "비공개",
+    "residence": "비공개"
+  },
+  "status": "공개 디자인 예시 · 실제 명식 아님",
+  "hero": {
+    "title": "나의 기준을 찾는 시간.",
+    "summary": "나의 기준과 표현 방식을 돌아보는 시간. 개인 정보를 담지 않은 디자인 예시입니다.",
+    "action_label": "지금 해볼 작은 행동",
+    "action": "요즘 고민 하나를 적고, 꼭 지킬 기준과 조정할 수 있는 조건을 하나씩 나눠보세요."
+  },
+  "interpretation": {
+    "basis": "자기 성찰을 위한 일반적인 질문입니다. 개인 명식이나 실제 성격 분석을 바탕으로 하지 않습니다.",
+    "items": [
+      {
+        "label": "강점으로 읽을 점",
+        "title": "기준을 세우고, 명료하게 정리하기",
+        "text": "복잡한 상황에서 무엇이 중요한지 구분해 보세요. 최근의 선택에서 나를 도왔던 기준 하나를 찾아보세요."
+      },
+      {
+        "label": "살펴볼 점",
+        "title": "내 기준을 상대도 알고 있을까요",
+        "text": "결론과 함께 이유를 설명하는 여유를 가져보세요. 서로 중요하게 생각하는 조건을 나누면 다음 선택이 쉬워질 수 있어요."
+      }
+    ]
+  },
+  "pillars": [
+    {
+      "label": "년주",
+      "hanja": "—",
+      "korean": "비공개",
+      "elements": []
+    },
+    {
+      "label": "월주",
+      "hanja": "—",
+      "korean": "비공개",
+      "elements": []
+    },
+    {
+      "label": "일주",
+      "hanja": "—",
+      "korean": "비공개",
+      "elements": []
+    }
+  ],
+  "hour": {
+    "status": "예시 화면",
+    "summary": "두 가지 관점을 선택해 내용을 살펴보는 예시입니다. 실제 출생 시각이나 시주 정보는 포함하지 않습니다.",
+    "scenarios": [
+      {
+        "id": "standard",
+        "label": "나의 기준",
+        "korean": "먼저, 나의 기준",
+        "hanja": "",
+        "elements": [],
+        "text": "지금 중요하게 생각하는 것을 한 문장으로 정리해 보세요."
+      },
+      {
+        "id": "alternative",
+        "label": "유연한 선택",
+        "korean": "다음은, 선택의 여유",
+        "hanja": "",
+        "elements": [],
+        "text": "꼭 지킬 조건과 조정할 수 있는 조건을 하나씩 나눠보세요."
+      }
+    ],
+    "boundary_note": "선택에 따라 설명이 바뀌는 디자인 예시입니다. 개인 운세나 명식 계산 결과가 아닙니다."
+  },
+  "five_elements": {
+    "denominator": 8,
+    "scope": "화면 표현용 가상 데이터 8개",
+    "method": "실제 명식에서 산출한 값이 아닙니다. 차트 디자인을 보여주기 위한 예시입니다.",
+    "counts": {
+      "목": 1,
+      "화": 2,
+      "토": 2,
+      "금": 1,
+      "수": 2
+    },
+    "colors": {
+      "목": "#111111",
+      "화": "#111111",
+      "토": "#111111",
+      "금": "#111111",
+      "수": "#111111"
+    },
+    "note": "공개본에는 개인의 오행 분포를 포함하지 않았습니다."
+  },
+  "calculation": {
+    "timezone": "개인 계산 정보 미포함",
+    "year_boundary": "개인 계산 정보 미포함",
+    "month_boundary": "개인 계산 정보 미포함",
+    "day_boundary": "개인 계산 정보 미포함",
+    "solar_time": "개인 계산 정보 미포함",
+    "terms": [],
+    "tools": [],
+    "checks": [
+      "화면과 HTML 원본에서 개인 입력·명식·계산 기록 제거"
+    ],
+    "unresolved": [],
+    "excluded": "공개본은 디자인 예시입니다. 점수·운세·개인 계산 결과를 제공하지 않습니다."
+  },
+  "sources": [],
+  "verification": {
+    "calculation": "개인 계산 정보는 공개본에서 제거했습니다.",
+    "screen": "390px 모바일 화면 확인. 1440·390·320px 가로 넘침 없음. 오프라인 표시와 내용 전환, 키보드 조작 확인. 개인 입력·명식·계산 기록 제거 확인."
+  },
+  "next": "개인 정보를 담지 않은 공개 디자인 예시입니다. 실제 사주 리포트는 개인별 입력과 계산 검증을 거쳐 별도로 구성합니다.",
+  "disclaimer": "전통 명리의 상징을 바탕으로 한 참고 해석입니다. 미래를 보장하거나 전문적인 판단을 대신하지 않습니다.",
+  "day_master": {
+    "name": "나",
+    "hanja": "我",
+    "intro": "개인 명식은 공개하지 않습니다. 아래 영역은 리포트의 구성 예시입니다."
+  },
+  "updated_at": "2026-11-06T00:00:00+09:00"
+}
+</script>
+<script>
+const data=JSON.parse(document.getElementById('report-data').textContent);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct=n=>(n/data.five_elements.denominator*100).toFixed(1).replace(/\.0$/,'');
+const input=data.input,calc=data.calculation;
+const outlineShapes={
+ rings:'<circle cx="100" cy="100" r="83"/><circle cx="100" cy="100" r="65"/><path d="M100 9v16M100 175v16M9 100h16M175 100h16"/>',
+ orbits:'<ellipse cx="100" cy="100" rx="92" ry="57"/><ellipse cx="100" cy="100" rx="92" ry="57" transform="rotate(62 100 100)"/><path d="M100 4v14M100 182v14M4 100h14M182 100h14"/>',
+ frames:'<rect x="34" y="34" width="132" height="132"/><rect x="50" y="50" width="100" height="100" transform="rotate(30 100 100)"/>',
+ spark:'<path d="M100 12C108 73 127 92 188 100C127 108 108 127 100 188C92 127 73 108 12 100C73 92 92 73 100 12Z"/>'
+};
+function ornament(shape,classes){return `<svg class="outline ${classes}" viewBox="0 0 200 200" aria-hidden="true" focusable="false">${outlineShapes[shape]}</svg>`;}
+document.getElementById('report').innerHTML=`
+<header class="masthead"><a class="brand" href="#top">사주.<small>READ YOUR OWN.</small></a><nav aria-label="리포트 목차"><a href="#reading">나의 이야기</a><a href="#composition">나의 구성</a><a href="#basis">해석의 기준</a></nav></header>
+<div class="edition" id="top"><span>PERSONAL JOURNAL — ${esc(data.calculation_period.label)}</span><span>VOL. 01 / ${esc(data.generated_at.slice(0,10).replaceAll('-','.'))}</span></div>
+<section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><p class="eyebrow">공개 디자인 예시 · 개인 정보 미포함</p><h1 id="hero-title">나의 기준을<br>찾는 <em>시간.</em></h1><p class="lead">${esc(data.hero.summary)}</p><a class="cta" href="#reading">나의 이야기 읽기 <span aria-hidden="true">↗</span></a><p class="status">공개 예시 · 실제 명식과 출생 정보 미포함</p></div><figure class="hero-art" aria-label="기준과 선택을 표현한 금속 질감의 추상 그래픽"><div class="art-grid"></div>${ornament("orbits","art-orbits")}${ornament("spark","art-spark")}<div class="metal"></div><span class="art-glyph" aria-hidden="true">${esc(data.day_master.hanja)}</span><span class="art-tag">THE SHAPE OF YOU</span><span class="art-sticker">MY ELEMENT / ${esc(data.day_master.name)}</span><figcaption class="art-foot"><strong>단단한 기준.<br>유연한 선택.</strong><span>METAL STUDY<br>SYMBOLIC ARTWORK</span></figcaption></figure></section>
+<div class="intro-strip"><strong>나라는 취향을 읽는 새로운 시선.</strong><span>공개 디자인 예시 / 개인 정보 미포함</span></div>
+<section class="section" id="reading" aria-labelledby="reading-title"><div class="section-head"><div><p class="eyebrow">EDITOR'S NOTE</p><h2 id="reading-title">나를 읽는 두 가지 질문.</h2></div><span class="section-no">01</span></div><div class="reading-grid">${data.interpretation.items.map((x,i)=>`<article class="story"><span class="story-num">0${i+1} / ${esc(x.label)}</span><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></article>`).join('')}<article class="story action"><span class="story-num">FOR YOUR NEXT STEP</span><h3>기준 하나.<br>여유 하나.</h3><p>${esc(data.hero.action)}</p></article></div><p class="note">${esc(data.interpretation.basis)}</p></section>
+<section class="section" id="composition" aria-labelledby="composition-title"><div class="section-head"><div><p class="eyebrow">MY ELEMENTS</p><h2 id="composition-title">나를 이루는 조각들.</h2></div><span class="section-no">02</span></div><div class="composition"><div><h3>나의 기준, ${esc(data.day_master.name)}.</h3><p class="small" style="margin-top:8px">${esc(data.day_master.intro)}</p><div class="pillar-grid">${data.pillars.map((x,i)=>`<div class="pillar ${i===2?'highlight':''}"><p class="small">${esc(x.label)}</p><p class="glyph" lang="zh">${esc(x.hanja)}</p><p>${esc(x.korean)}</p><p class="small">${esc(x.elements.join(' · '))}</p></div>`).join('')}<div class="pillar uncertain"><p class="small">시주 · 비공개</p><p class="glyph" style="font-size:20px;letter-spacing:0">—</p><p class="small">내용 전환 예시</p></div></div><p class="note">${esc(data.status)}<br>공개본은 명식과 계산 기록을 포함하지 않습니다.</p></div><div><h3>오행, 있는 그대로.</h3><p class="small" style="margin-top:8px">${esc(data.five_elements.scope)} 기준</p>${Object.entries(data.five_elements.counts).map(([name,n])=>`<div class="bar-row"><div class="bar-top"><strong>${esc(name)}</strong><span>${n}개 / ${pct(n)}%</span></div><div class="track" aria-hidden="true"><div class="fill" style="width:${pct(n)}%"></div></div></div>`).join('')}<p class="note">${esc(data.five_elements.method)} 비율은 소수 첫째 자리 반올림입니다.</p><p class="small">${esc(data.five_elements.note)}</p></div></div></section>
+<section class="time-section" aria-labelledby="time-title"><div><p class="eyebrow">TWO PERSPECTIVES</p><h2 id="time-title">나의 기준과<br>선택의 여유.</h2><p class="small">${esc(data.hour.summary)}</p><details style="margin-top:22px"><summary>이 화면은 무엇인가요?</summary><p>${esc(data.hour.boundary_note)}</p></details></div><div><fieldset><legend>관점별 내용 살펴보기</legend><div class="options">${data.hour.scenarios.map((s,i)=>`<label class="option"><input type="radio" name="hour" value="${s.id}" ${i===0?'checked':''}><span>${esc(s.label)}</span><span class="selected">선택됨</span></label>`).join('')}</div></fieldset><div id="scenario" class="scenario" aria-live="polite"></div><p class="small">디자인 예시입니다. 실제 개인 분석 결과가 아닙니다.</p></div></section>
+<section class="section lower-grid"><div><div class="section-head"><div><p class="eyebrow">YOUR PROFILE</p><h2>공개본 안내.</h2></div></div><dl>${[['공개 범위','디자인과 일반 안내'],['출생 정보','포함하지 않음'],['개인 명식','포함하지 않음'],['오행 차트','화면 표현용 가상 데이터']].map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></div><div id="basis"><div class="section-head"><div><p class="eyebrow">BEHIND THE READING</p><h2>해석에도, 기준이 있습니다.</h2></div></div><p class="small" style="margin-bottom:20px">${esc(data.verification.calculation)}</p><details><summary>공개본의 정보 처리</summary><ul>${[calc.timezone,calc.year_boundary,calc.month_boundary,calc.day_boundary,calc.solar_time,...calc.tools,...calc.checks].map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>개인 계산 정보 미포함</p><ul>${calc.terms.map(t=>`<li>${esc(t.name)} ${esc(t.kst)}</li>`).join('')}</ul></details><details><summary>미확정 항목과 생략한 내용</summary><ul>${calc.unresolved.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>${esc(calc.excluded)}</p></details><details><summary>출처와 리포트 정보</summary>${data.sources.map(s=>`<a class="source" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`).join('')}<p>출처 링크를 여는 경우에만 인터넷 연결이 필요합니다.</p><p>적용 지침 ${esc(data.guideline_version)} · 계산 규칙 ${esc(data.rules_version)} · 리포트 ${esc(data.report_version)}</p><p>원본 생성 ${esc(data.generated_at)}<br>화면 개정 ${esc(data.updated_at)}<br>범위: 개인정보 없는 디자인 예시.</p><p>화면 검수: ${esc(data.verification.screen)}</p></details></div></section>
+<section class="next"><h3>다음은, 당신이 궁금한 이야기.</h3><p>${esc(data.next)}</p></section>
+<footer>${ornament("rings","footer-orbits")}${ornament("spark","footer-spark")}<div><p class="footer-brand">사주.</p><p class="eyebrow">READ YOUR OWN.</p></div><div><p class="eyebrow">나라는 취향을 읽다.</p><p class="small">${esc(data.disclaimer)}</p><p class="small" style="margin-top:12px">PERSONAL JOURNAL · DESIGN EDITION V8</p></div></footer>
+`;
+function renderScenario(id){const s=data.hour.scenarios.find(x=>x.id===id);document.getElementById('scenario').innerHTML=`<p class="eyebrow">${esc(s.label)}</p><strong>${esc(s.korean)} <span lang="zh">${esc(s.hanja)}</span></strong><p>${esc(s.text)}</p>`;}
+renderScenario('standard');document.querySelectorAll('input[name="hour"]').forEach(el=>el.addEventListener('change',()=>renderScenario(el.value)));
+</script>
+</body>
+</html>
